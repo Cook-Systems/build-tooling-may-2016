@@ -9,6 +9,8 @@ import ngSanitize from 'angular-sanitize'
 
 import btWelcome from './welcome/welcome.module'
 
+import './app.css'
+
 export default
   angular
     .module('build-tooling', [
