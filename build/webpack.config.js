@@ -36,9 +36,7 @@ const entry = {
 const output = {
   filename: '[name].js',
   path: path.resolve(__dirname, '../dist'),
-  publicPath: development ? '/' : path.resolve(__dirname, '../dist/'),
-  devtoolModuleFilenameTemplate: '[absolute-resource-path]',
-  devtoolFallbackModuleFilenameTemplate: '[absolute-resource-path]?[hash]'
+  publicPath: development ? '/' : path.resolve(__dirname, '../dist/')
 }
 
 const plugins = [
